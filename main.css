@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: rgb(9, 9, 143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+}
+
+header h1 , a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.container {
+    display: flex;
+}
+
+.container img {
+    width: 400px;
+    padding: 32px;
+}
+
+.container h2 {
+    margin-top: 32px;
+    color: rgb(9, 9, 143);
+    font-style: italic;
+    border-bottom: 1px solid rgb(9, 9, 143);
+}
+
+.sobre h2 , p{
+    padding: 8px;
+    margin-bottom: 16px;
+    max-width: 700px;
+}
+.container , footer {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+footer h2 {
+    color: rgb(9, 9, 143);
+    font-style: italic;
+    border-bottom: 1px solid rgb(9, 9, 143);
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.imgs {
+    padding: 16px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.imgs img {
+    width: 200px;
+    height: 200px;
+}
+
+.imgs button {
+    padding: 8px;
+    background-color:rgb(48, 48, 208) ;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imgs h4 {
+    font-size: 12px;
+    font-weight: 200;
+    margin: 8px 0;
+    max-width: 200px;
+}
+
+.imgs li {
+    list-style: none;
+    max-width: 25%;
+    margin-bottom: 24px;
+    margin-left: 16px;
+}
+
+@media screen and (max-width:667px){
+
+    header {
+        display: flex;
+        max-width: 100%;
+    }
+    
+    header h1 , a {
+        color: white;
+        text-decoration: none;
+        padding: 8px;
+    }
+    
+    .container {
+        display: inline;
+        max-width: 90%;
+    }
+    
+    .container img {
+        width: 90%;
+        padding: 16px;
+    }
+    
+    .container h2 {
+        margin-top: 8px;
+        color: rgb(9, 9, 143);
+        font-style: italic;
+        border-bottom: 1px solid rgb(9, 9, 143);
+    }
+    
+    .sobre h2 , p{
+        padding: 8px;
+        margin-bottom: 16px;
+        max-width: 300px;
+        justify-content: center;
+        margin-left: 45px;
+    }
+    .container , footer {
+        margin: 0 auto;
+    }
+    
+    footer h2 {
+        color: rgb(9, 9, 143);
+        font-style: italic;
+        border-bottom: 1px solid rgb(9, 9, 143);
+        padding: 8px;
+        margin-bottom: 16px;
+        margin-left: 45px;
+    }
+    
+    .imgs {
+        padding: 16px;
+        display: inline;
+        justify-content: center;
+        display: block;
+        margin-left: 45px;
+    }
+
+    .imgs button {
+        padding: 8px;
+        background-color:rgb(48, 48, 208) ;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .imgs h4 {
+        font-size: 12px;
+        font-weight: 200;
+        margin: 8px 0;
+        max-width: 200px;
+    }
+    
+    .imgs li {
+        list-style: none;
+        max-width: 90%;
+        margin-bottom: 24px;
+        margin-left: 16px;
+    }
+}
+
+@media screen and (min-width: 667px)  and (max-width:1023px) {
+
+    .container {
+        display: inline;
+    }
+    
+    .container img {
+        width: 700px;
+        padding: 16px;
+        margin-left: 50px;
+    }
+    
+    .container h2 {
+        margin-top: 8px;
+        color: rgb(9, 9, 143);
+        font-style: italic;
+        border-bottom: 1px solid rgb(9, 9, 143);
+        margin-left: 45px;
+    }
+    
+    .sobre h2 , p{
+        padding: 8px;
+        margin-bottom: 16px;
+        max-width: 700px;
+        margin-left: 45px;
+    }
+    .container , footer {
+        width: 1024px;
+        margin: 0 auto;
+    }
+    
+    footer h2 {
+        color: rgb(9, 9, 143);
+        font-style: italic;
+        border-bottom: 1px solid rgb(9, 9, 143);
+        padding: 8px;
+        margin-bottom: 16px;
+        margin-left: 45px;
+    }
+    
+    .imgs {
+        padding: 16px;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    
+    .imgs img {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .imgs button {
+        padding: 8px;
+        background-color:rgb(48, 48, 208) ;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .imgs h4 {
+        font-size: 12px;
+        font-weight: 200;
+        margin: 8px 0;
+        max-width: 200px;
+    }
+    
+    .imgs li {
+        list-style: none;
+        max-width: 50%;
+        margin-bottom: 24px;
+        margin-left: 16px;
+    }
+}
